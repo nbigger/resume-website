@@ -40,8 +40,7 @@ h3 {
 
 #header {
   width: 100%;
-  background: url('../img/header-bg.png');
-  height: 80px;
+  /*height: 80px;*/
   position: fixed;
 }
 
@@ -103,3 +102,38 @@ h3 {
 
 #copyright { color: #fff; font-family:"Wellfleet"; font-size: 14px; margin-top: 100px; text-align: center; }
 #copyright a { text-decoration: none; color: #fff; }
+
+.share {
+    z-index: 999;
+    top: 19px;
+    right: 9px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    position: fixed;
+}
+
+.share-item a {
+  background-image: url(../img/socials@2x.png);
+  background-size: 80px 80px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.share-item {
+  padding-right: 10px;
+}
+
+.share-item a._github:hover {
+  background-position: 0 -40px;
+}
+
+.share-item a._linkedin {
+  background-position: -40px 0;
+}
+
+.share-item a._linkedin:hover {
+  background-position: -40px -40px;
+}

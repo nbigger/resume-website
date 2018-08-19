@@ -13,11 +13,14 @@
 
 <body>
     <!----- HEADER START---> 
-    <header id="header">
-        <div class="content">
-            
-       </div>
-   </header>
+    <div class="share">
+        <span class="share-item">
+            <a href="https://github.com/nbigger" target="_blank" class="_github"></a>
+        </span>
+        <span class="share-item">
+            <a href="https://github.com/nbigger" target="_blank" class="_linkedin"></a>
+        </span>
+   </div>
    <!----- SLIDES START ---> 
    <div id="slide1">
        <div class="content">
