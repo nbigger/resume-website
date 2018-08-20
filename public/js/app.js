@@ -3,7 +3,7 @@ $(document).ready(function() {
   var $win = $(window),
   $win_height = $(window).height(),
         // - A multiple of viewport height - The higher this number the sooner triggered.
-        windowPercentage = $(window).height() * 1.4;
+        windowPercentage = $(window).height() * 1.2;
         $win.on("scroll", scrollReveal);
         function scrollReveal() {
           var scrolled = $win.scrollTop();
@@ -23,7 +23,7 @@ $(document).ready(function() {
               $(this).css("height", percentage + "%"); 
               $(this).text(years);
               
-              });
+            });
 
         } else {
                 ///////////////////////////////////////
@@ -32,7 +32,6 @@ $(document).ready(function() {
                   $(this).css("height", 0);
                 });
               }    
-
             });
       }
     });

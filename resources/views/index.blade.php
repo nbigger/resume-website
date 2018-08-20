@@ -8,7 +8,7 @@
    <script type="text/javascript" src="js/app.js"></script>
    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 
-   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
    <script>
    </script>
 </head>
@@ -16,7 +16,7 @@
 <body>
     <!----- HEADER START---> 
     <div class="share">
-        <span class="share-item">
+        <span class="share-item" id="facebook">
             <a href="https://github.com/nbigger" target="_blank" class="_github"></a>
         </span>
         <span class="share-item">
@@ -26,7 +26,7 @@
    <!----- SLIDES START ---> 
    <div id="slide1">
        <div class="content">
-          
+
        </div> 
    </div> 
    <div id="slide2">
@@ -51,6 +51,11 @@
                         <b>PHP</b> 
                     </li>
                     <li>
+                        <div data-percentage="60" data-years="3 Years" class="bar purpleBar trigger"></div>    
+                        </span>
+                        <b>SQL</b>   
+                    </li>
+                    <li>
                         <div data-percentage="100" data-years="5 Years" class="bar orangeBar trigger"></div>
                         </span>
                         <b>HTML/CSS</b>
@@ -58,7 +63,7 @@
                     <li>
                         <div data-percentage="60" data-years="3 Years" class="bar purpleBar trigger"></div>    
                         </span>
-                        <b>SQL</b>   
+                        <b>Python</b>   
                     </li>
                 </ul>
             </div>
@@ -69,14 +74,35 @@
        <div class="content">
            <div class="quotes_container">
                <h3 class="quotes">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." </h3>
-               <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Test test </h4>
            </div> 
+       </div> 
+   </div> 
+   <div id="slide4">
+        <h1 style="color:black">Experience</h1>
+        <div class="content" >
+            <div class="experience-list">
+                <div class="experience">
+                    <img src="img/sitecrafting-logo.png" id="sitecrafting" align="left" class="logo"/><h4 class="author_name_gray">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."</h4>
+                </div>
+                <span class="float-right"><a href="https://www.sitecrafting.com/meet-our-summer-web-dev-interns/">More Info</a></h1>
+                <div class="experience">
+                    <img src="img/tableau-logo.png" id="tableau" align="left" class="logo"/><h4 class="author_name_gray">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."</h4>
+                </div>
+                <div class="experience">
+                    <img src="img/nvizible-logo.png" id="nvizible" align="left" class="logo"/><h4 class="author_name_gray">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."</h4>
+                </div>
+            </div>
+       </div> 
+   </div>
+   <div id="slide5">
+       <div class="content">
+          
        </div> 
    </div> 
    <div id="slide4">
        <div class="content">
            <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
+            <h1 class="float-right"><a style="text-decoration: none" href="#">Back to top ^</a></h1>
             <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
           </footer>
        </div> 
